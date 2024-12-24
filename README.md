@@ -1,4 +1,5 @@
 A BepInEx plugin that makes unity apps manage their memory more tightly,
+
 it works by telling the OS every 200ms that the process needs at least 256kb of memory, instead of letting the minimum memory grow out of control
 
 Make sure to install bepinex first,
