@@ -19,7 +19,7 @@ namespace BepInAgressiveGC
                     Process prs = Process.GetCurrentProcess();
                     prs.MinWorkingSet = (IntPtr)(1 << 18);
                 },
-            null, 0, 200);
+            null, 0, 2000);
         }
     }
 }
